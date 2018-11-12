@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.375em;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  
+}
+
+.main-box{
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(53,1,63); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgb(53,1,63) 0%, rgb(14,2,32) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgb(53,1,63) 0%,rgb(14,2,32) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgb(53,1,63) 0%,rgb(14,2,32) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35013f', endColorstr='#0e0220',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    
+}
+
+.main-box >h2{
+    background-color: #ffffff00;
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    word-spacing: 5px;
+    font-weight: lighter;
+    color: #fff;
+}
+.box{
+    width: 60%;
+    background: #fff;
+    border: 4.9px solid #fff; 
+    border-left: 5.2px solid #fff;
+    border-right: 5.2px solid #fff;
+    border-radius: .20rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col, .col-4, .col-5, .col-6{
+    flex: 1;
+    margin: .2rem;
+    padding: .9rem;
+}
+
+.col, .col-4, .col-5, .col-6{
+    border: 1px solid #fff;
+    color: #fff;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: .15rem;
+    
+}
+
+.col-4{
+    flex: 2.22;
+
+}
+
+.col-5{
+    flex: 5;
+}
+@media screen and (max-width: 1024px){
+    .col-4{
+        flex: 2.32
+    }
+}
+@media screen and (max-width: 450px){
+    .box{
+        margin: 4rem;
+    }
+    .row{
+        
+     flex-direction: column;
+
+    }
+}
