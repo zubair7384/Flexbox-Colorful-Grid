@@ -86,11 +86,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35013f', end
 }
 @media screen and (max-width: 450px){
 
+
     .main-box{
     height: 230vh;
 }
+.main-box >h2{
+    font-size: 2rem;
+    margin: 3rem 0 1rem 0;
+}
     .box{
-        margin: 4rem;
+        margin: 1.5rem 0;
     }
     .row{
         
