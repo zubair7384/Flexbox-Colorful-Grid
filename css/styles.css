@@ -15,7 +15,7 @@ body{
 }
 
 .main-box{
-    height: 200vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -32,7 +32,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35013f', end
 .main-box >h2{
     background-color: #ffffff00;
     text-align: center;
-    margin: 4rem 0 2rem 0;
+    margin: 5rem 0 4rem 0;
     letter-spacing: 2px;
     font-family: 'Lato', sans-serif;
     font-size: 2.5rem;
@@ -79,11 +79,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35013f', end
     flex: 5;
 }
 @media screen and (max-width: 1024px){
+   
     .col-4{
         flex: 2.32
     }
 }
 @media screen and (max-width: 450px){
+
+    .main-box{
+    height: 230vh;
+}
     .box{
         margin: 4rem;
     }
