@@ -15,7 +15,7 @@ body{
 }
 
 .main-box{
-    height: 100vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
